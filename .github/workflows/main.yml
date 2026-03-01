@@ -40,11 +40,11 @@ jobs:
 
           aws cloudformation deploy \
 
-            --template-file templates/ec2-server.yaml \
+            --template-file ec2-template.yaml \
 
             --stack-name github-ec2-stack \
 
-            --parameter-overrides file://parameters/dev-params.json \
+            --parameter-overrides file://dev-params.json \
 
             --capabilities CAPABILITY_NAMED_IAM \
 
