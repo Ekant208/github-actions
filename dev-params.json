@@ -5,14 +5,14 @@
  },
  {
    "ParameterKey": "KeyName",
-   "ParameterValue": "your-keypair-name"
+   "ParameterValue": "pipeline"
  },
  {
    "ParameterKey": "VpcId",
-   "ParameterValue": "vpc-xxxxxxxx"
+   "ParameterValue": "vpc-00767ca21efcbb0ee"
  },
  {
    "ParameterKey": "SubnetId",
-   "ParameterValue": "subnet-xxxxxxxx"
+   "ParameterValue": "subnet-065035f10b91ae3a5"
  }
 ]
