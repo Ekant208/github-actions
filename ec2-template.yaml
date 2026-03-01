@@ -37,7 +37,7 @@ Resources:
  EC2Instance:
    Type: AWS::EC2::Instance
    Properties:
-     ImageId: ami-0f58b397bc5c1f2e8   # Amazon Linux 2 (update per region)
+     ImageId: ami-003ecaf0f62c60794   
      InstanceType: !Ref InstanceType
      KeyName: !Ref KeyName
      SubnetId: !Ref SubnetId
