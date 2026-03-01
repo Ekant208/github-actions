@@ -37,7 +37,7 @@ Resources:
  EC2Instance:
    Type: AWS::EC2::Instance
    Properties:
-     ImageId: ami-003ecaf0f62c60794   
+     ImageId: ami-051a31ab2f4d498f5 
      InstanceType: !Ref InstanceType
      KeyName: !Ref KeyName
      SubnetId: !Ref SubnetId
