@@ -1,4 +1,4 @@
-#For creating server
+#For creating servers
 
 AWSTemplateFormatVersion: '2010-09-09'
 Description: EC2 Instance using CloudFormation
